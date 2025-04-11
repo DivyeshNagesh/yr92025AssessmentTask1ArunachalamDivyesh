@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+@import url('https://fonts.googleapis.com/css2?family=Monda');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #a2a39e;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-bar {
+    text-align: center;
+    background: #3495eb;
+    padding: 10px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-bar a:hover {
+    background: #1d4b9e;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    background: #1d4b9e;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+    font-family: 'Monda', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center; 
+}
+
+.what-is-computer-network,
+.what-is-social-network, .what-is-network-hardware {
+    display: inline-block;
+    width: 58%;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 0 10px gray;
+    border-radius: 5px;
+    vertical-align: top; 
+    text-align: left; 
+}
+
+.what-is-computer-network-image,
+.what-is-social-network-image, .what-is-network-hardware-image {
+    display: inline-block;
+    width: 35%;
+    margin: 10px;
+    vertical-align: top; 
+}
+
+.what-is-computer-network-image img,
+.what-is-social-network-image img, .what-is-network-hardware-image img {
+    width: 100%;
+    border-radius: 5px;
+    height: 48%;
+    display: block; 
+}
+
+.what-is-computer-network h2,
+.what-is-social-network h2, .what-is-network-hardware h2 {
+    font-family: 'Monda', sans-serif;
+    color: #3495eb;
+}
+
+.what-is-computer-network p,
+.what-is-social-network p, .what-is-network-hardware p {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
